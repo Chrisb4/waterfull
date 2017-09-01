@@ -15,7 +15,7 @@ function updateOutput(vol) {
 }
 
 function targetUpdate(waterDrank) {
-  const template = `<h1>${parseInt(waterDrank)}</h1>`
+  const template = `<h1>${parseInt(waterDrank)} ounces</h1>`
   target.innerHTML = template;
 }
 

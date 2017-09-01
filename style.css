@@ -6,3 +6,23 @@ body {
 #click-target {
   background-color: purple;
 }
+
+.main {
+  margin-top: 50px;
+}
+.main h1 {
+  font-size: 82px;
+  color: lightblue;
+  margin-bottom: 20px;
+  animation: water-color 30s infinite;
+}
+.target-container {
+  margin-top: 20px;
+}
+@keyframes water-color {
+  0%    {color: lightblue;}
+  25%   {color: cyan;}
+  50%   {color: lightblue;}
+  75%   {color: darkblue;}
+  99%   {color: lightblue;}
+}
