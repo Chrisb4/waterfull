@@ -1,3 +1,6 @@
+
+console.log('Adding data persistence next');
+
 console.log("hello June");
 
 const waterForm = document.getElementById('waterForm');
