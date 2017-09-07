@@ -19,6 +19,17 @@ body {
 .target-container {
   margin-top: 20px;
 }
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.flex-column {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+}
 @keyframes water-color {
   0%    {color: lightblue;}
   25%   {color: cyan;}
