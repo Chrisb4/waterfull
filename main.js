@@ -12,6 +12,10 @@ const output = document.querySelector('#output');
 console.log(output);
 let waterDrank = 0;
 
+// make the slider update on change event
+
+// make an object to save the water drank for the day
+
 
 function updateOutput(vol) {
   output.value = vol;
